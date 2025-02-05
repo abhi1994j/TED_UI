@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.headings{
+    @apply text-7xl font-bold underline
+}
+/* npx @tailwindcss/cli -i input.css -o output.css --watch */
