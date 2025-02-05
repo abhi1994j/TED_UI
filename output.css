@@ -1636,6 +1636,10 @@
   .align-top {
     vertical-align: top;
   }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
   .text-7xl {
     font-size: var(--text-7xl);
     line-height: var(--tw-leading, var(--text-7xl--line-height));
@@ -1833,6 +1837,9 @@
   }
   .decoration-from-font {
     text-decoration-thickness: from-font;
+  }
+  .underline-offset-0 {
+    text-underline-offset: 0px;
   }
   .underline-offset-auto {
     text-underline-offset: auto;
