@@ -3,4 +3,8 @@
 .headings{
     @apply text-7xl font-bold underline
 }
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
 /* npx @tailwindcss/cli -i input.css -o output.css --watch */

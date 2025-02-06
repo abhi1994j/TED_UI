@@ -1,82 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TED UI</title>
-    <link href="output.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="header border-b border-b-black">
-      <div class="py-4 px-4 bg-amber-200">
-        <p class="inline-block text-base">
-          Head of TED Chris Anderson on TED’s exciting new chapter.
-        </p>
-        &nbsp;
-        <a href="" class="font-bold">Learn more »</a>
-      </div>
-      <nav class="px-5 flex items-center justify-between">
-        <div class="py-4">
-          <a href="" class="flex">
-            <svg
-              viewBox="0 0 68 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 lg:mr-3"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M21.419 0v6.151h-6.763V24h-7.44V6.151H.453V0H21.42zm21.484 0v6.141l-12.918.01v2.946h12.918v5.73l-12.918-.009v3.03h12.918V24H22.546V0h20.357zm13.446 0c8.048 0 10.889 5.916 10.889 11.966C67.237 19.328 63.314 24 54.894 24H44.142V0h12.207zm-2.4 6.151H51.58V17.85h2.908c4.633 0 5.31-3.731 5.31-5.983 0-1.513-.474-5.715-5.85-5.715z"
-                fill="#EB0028"
-              ></path>
-            </svg>
-            <div class="text-gray-500 text-base">Ideas change everything</div>
-          </a>
-        </div>
-        <ul class="text-xs text-gray-500 flex font-bold uppercase">
-          <li class="py-5 px-3">
-            <a href="">Watch</a>
-          </li>
-          <li class="py-5 px-3">
-            <a href="">Discover</a>
-          </li>
-          <li class="py-5 px-3">
-            <a href="">Attend</a>
-          </li>
-          <li class="py-5 px-3">
-            <a href="">Participate</a>
-          </li>
-          <li class="py-5 px-3">
-            <a href="">About</a>
-          </li>
-          <li class="py-5 px-3">
-            <a href="">Sign in</a>
-          </li>
 
-          <li class="text-gray-500 py-2 px-4">
-            <button
-              class="py-2.5 px-4 bg-red-700 text-white rounded-sm hover:bg-red-900 "
-            >
-              Membership
-            </button>
-          </li>
-          <li>
-            <button class="py-5 px-3">Membership</button>
-            <!-- <i aria-hidden="true" class="fa-solid fa-magnifying-glass"></i> -->
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!--  Header End -->
-    <main>
-      <section class="w-full px-10 py-8">
-        <div class="">
-          <div class="flex items-center justify-between gap-10 mb-10">
-            <div class="w-1/2">
-              <p class="text-red-500 font-semibold text-xs mb-5">SCIENCE</p>
-              <h1 class="text-black text-3xl font-semibold mb-1.5">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TED UI</title>
+  <link href="output.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header border-b border-b-black  ">
+    <div class="py-4 px-4 bg-gray-200">
+      <p class="inline-block text-base">
+        Head of TED Chris Anderson on TED’s exciting new chapter.
+      </p>
+      &nbsp;
+      <a href="" class="font-bold">Learn more »</a>
+    </div>
+    <nav class="px-5 flex items-center justify-between">
+      <div class="py-4">
+        <a href="" class="flex">
+          <svg viewBox="0 0 68 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 lg:mr-3"
+            aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M21.419 0v6.151h-6.763V24h-7.44V6.151H.453V0H21.42zm21.484 0v6.141l-12.918.01v2.946h12.918v5.73l-12.918-.009v3.03h12.918V24H22.546V0h20.357zm13.446 0c8.048 0 10.889 5.916 10.889 11.966C67.237 19.328 63.314 24 54.894 24H44.142V0h12.207zm-2.4 6.151H51.58V17.85h2.908c4.633 0 5.31-3.731 5.31-5.983 0-1.513-.474-5.715-5.85-5.715z"
+              fill="#EB0028"></path>
+          </svg>
+          <div class="text-gray-500 text-base">Ideas change everything</div>
+        </a>
+      </div>
+      <ul class="text-xs text-gray-500 flex font-bold uppercase">
+        <li class="py-5 px-3">
+          <a href="">Watch</a>
+        </li>
+        <li class="py-5 px-3">
+          <a href="">Discover</a>
+        </li>
+        <li class="py-5 px-3">
+          <a href="">Attend</a>
+        </li>
+        <li class="py-5 px-3">
+          <a href="">Participate</a>
+        </li>
+        <li class="py-5 px-3">
+          <a href="">About</a>
+        </li>
+        <li class="py-5 px-3">
+          <a href="">Sign in</a>
+        </li>
+
+        <li class="text-gray-500 py-2 px-4">
+          <button class="py-2.5 px-4 bg-red-700 text-white rounded-sm hover:bg-red-900 ">
+            Membership
+          </button>
+        </li>
+        <li>
+          <button class="py-5 px-3">Membership</button>
+          <!-- <i aria-hidden="true" class="fa-solid fa-magnifying-glass"></i> -->
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--  Header End -->
+  <main>
+    <section class="w-full px-10 py-8">
+      <div class="">
+        <div class="flex items-center justify-between gap-10 mb-10">
+          <div class="w-1/2">
+            <p class="text-red-500 font-semibold text-xs mb-5">SCIENCE</p>
+            <h1 class="text-black text-3xl font-semibold mb-1.5">
+              Are we alone in the universe? We're close to finding out
+            </h1>
+            <p class="text-sm mb-2">
+              Astrophysicist Lisa Kaltenegger explores the thrilling
+              possibility of discovering life beyond Earth, highlighting how
+              cutting-edge technology like the James Webb Space Telescope lets
+              us analyze distant planets for signs of life in unprecedented
+              detail. Could examining these "alien earths" uncover evidence of
+              new life forms and transform our understanding of the cosmos? We
+              may be closer than ever to finding out.
+            </p>
+            <p class="text-xs">Lisa Kaltenegger</p>
+            <p class="text-xs">263K views · 8 days ago</p>
+          </div>
+          <div class="w-1/2">
+            <img src="./assets/images/hero-girl.png" alt="" />
+          </div>
+        </div>
+        <hr class="border-gray-300" />
+        <div class="flex items-center gap-5 mt-5">
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+              </p>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+          </div>
+          <div class="h-74 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/card-pic-old-man.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">global issues</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">The biggest global risks for 2025
+              </p>
+              <p class="text-xs text-gray-500">Ian Bremmer · 730K views · 29 days ago</p>
+            </div>
+          </div>
+          <div class="h-74 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/card-3-blue.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Culture</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">The mission to safeguard Black history in
+                the US
+              </p>
+              <p class="text-xs text-gray-500">Julieanna L. Richardson · 1.6M views · 3 years ago</p>
+            </div>
+          </div>
+          <div class="h-74 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">technology</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">War, AI and the new global arms race
+              </p>
+              <p class="text-xs text-gray-500">Alexandr Wang · 1.2M views · 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full px-16 bg-black text-white mb-12">
+      <div class="flex py-10 px-5 items-center justify-between">
+        <div class="text-3xl font-semibold">Discover</div>
+        <div class="flex justify-between overflow-hidden gap-5">
+          <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
+          <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
+          <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
+          <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
+          <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
+          <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
+          <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
+          <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
+        </div>
+        <div class="bg-[rgba(255,255,255,0.3)] text-center px-4 py-2.5 flex justify-center items-center rounded-full ">>
+        </div>
+        <div><a href="" class="underline">See all</a></div>
+      </div>
+    </section>
+    <section class="w-full mb-10">
+      <hr class="border-gray-300" />
+      <p class="text-center text-gray-500 font-normal mb-20">TED is supported by ads and partners</p>
+      <div class="mx-5 px-5">
+
+        <hr class="border-black" />
+        <p class="my-2 font-bold uppercase text-sm">Recommended For You</p>
+        <div class="flex gap-5">
+          <div class="max-w-lg bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-3">
+              <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
+              <h1 class="text-black text-2xl font-semibold mb-1.5">
                 Are we alone in the universe? We're close to finding out
               </h1>
               <p class="text-sm mb-2">
@@ -88,165 +192,617 @@
                 new life forms and transform our understanding of the cosmos? We
                 may be closer than ever to finding out.
               </p>
-              <p class="text-xs">Lisa Kaltenegger</p>
-              <p class="text-xs">263K views · 8 days ago</p>
-            </div>
-            <div class="w-1/2">
-              <img src="./assets/images/hero-girl.png" alt="" />
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
             </div>
           </div>
-          <hr class="border-gray-300" />
+          <div class="h-135 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-3">
+              <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
+              <h1 class="text-black text-2xl font-semibold mb-1.5">
+                Are we alone in the universe? We're close to finding out
+              </h1>
+              <p class="text-sm mb-2">
+                When the world goes fully electric, what happens to the cars, tools and livelihoods that rely on fossil
+                fuels? Civil engineer and environmental sociologist Emily Grubert...
+              </p>
+              <p class="text-xs text-gray-500"> Emily Grubert · 1.36M views · 2 years ago</p>
+            </div>
+          </div>
+          <div class="h-135 border-l-1 border-gray-300"></div>
+          <div class="flex flex-col gap-5">
+            <div>
+              <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
+              <h1 class="text-black text-lg font-semibold mb-1.5">
+                Are we alone in the universe? We're close to finding out
+              </h1>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+            <hr class="border-gray-300" />
+            <div>
+              <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
+              <h1 class="text-black text-lg font-semibold mb-1.5">
+                Are we alone in the universe? We're close to finding out
+              </h1>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+            <hr class="border-gray-300" />
+            <div>
+              <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
+              <h1 class="text-black text-lg font-semibold mb-1.5">
+                Are we alone in the universe? We're close to finding out
+              </h1>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+            <hr class="border-gray-300" />
+          </div>
+        </div>
+
+        <hr class="border-black mt-10 mb-2" />
+        <div class="mb-5 flex justify-between">
+          <p class="font-bold uppercase text-sm">Newest from TED</p>
+          <p class="font-bold text-sm underline">Browse all Newest</p>
+        </div>
+        <div class="flex items-center gap-5 mt-5">
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+              </p>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+          </div>
+          <div class="h-74 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+              </p>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+          </div>
+          <div class="h-74 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+              </p>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+          </div>
+          <div class="h-74 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+              </p>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+          </div>
+        </div>
+
+
+        <hr class="border-black mt-10 mb-2" />
+        <div class="mb-5 flex justify-between">
+          <p class="font-bold uppercase text-sm">Newest from TED</p>
+          <p class="font-bold text-sm underline">Browse all Newest</p>
+        </div>
+        <div class="flex items-center gap-5 mt-5">
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+              </p>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+          </div>
+          <div class="h-74 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+              </p>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+          </div>
+          <div class="h-74 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+              </p>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+          </div>
+          <div class="h-74 border-l-1 border-gray-300"></div>
+          <div class="max-w-xs bg-white   dark:bg-white">
+            <a href="#">
+              <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+            </a>
+            <div class="py-5">
+              <p href="#">
+              <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+              </p>
+              <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+              </p>
+              <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full px-10 py-8">
+
+      <div class="flex items-center justify-between gap-10 mb-10">
+        <div class="w-1/2">
+          <!-- <p class="text-red-500 font-semibold text-xs mb-5">SCIENCE</p> -->
+          <h1 class="text-black text-3xl font-semibold mb-1.5">
+            Unlock your greatest potential
+          </h1>
+          <p class="text-base font-normal mb-8">
+            Become a TED Member today to build a better future – and a better you. TED Members champion world-changing
+            ideas and receive exclusive benefits including digital access to TED2025.
+          </p>
+          <button class="bg-black inline text-white font-semibold text-sm px-5.5 py-3.5 rounded-sm">Join today</button>
+        </div>
+        <div class="h-100 max-md">
+          <img src="./assets/images/hero-girl.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="w-full px-10 py-8">
+      <hr class="border-black" />
+      <p class="mt-3 mb-4 font-bold uppercase text-sm">Trending ideas</p>
+      <hr class="border-gray-300 " />
+      <div class="flex justify-between">
+        <h1 class="text-[5.5rem] font-semibold">AI</h1>
+        <div class="w-1/2">
+          <p class="text-lg">Gain a deeper understanding of AI and its impact on our world — uncover its potential, and
+            feel inspired to tackle this transformative field.</p>
+          <p class="underline mt-2"> Browse all AI</p>
+        </div>
+      </div>
+      <div class="w-full">
+        <img class="w-full" src="./assets/images/white-shirt.png" alt="">
+      </div>
+
+
+      <div class="mt-5 flex">
+        <div class="w-1/2 ">
+          <p class="text-red-500 font-semibold text-xs mb-5">SCIENCE</p>
+          <h1 class="text-black text-3xl font-semibold mb-1.5">
+            Are we alone in the universe? We're close to finding out
+          </h1>
+          <p class="text-sm mb-2">
+            Astrophysicist Lisa Kaltenegger explores the thrilling
+            possibility of discovering life beyond Earth, highlighting how
+            cutting-edge technology like the James Webb Space Telescope lets
+            us analyze distant planets for signs of life in unprecedented
+            detail. Could examining these "alien earths" uncover evidence of
+            new life forms and transform our understanding of the cosmos? We
+            may be closer than ever to finding out.
+          </p>
+          <p class="text-xs">Lisa Kaltenegger</p>
+          <p class="text-xs">263K views · 8 days ago</p>
+        </div>
+        <div class="flex">
+          <div class="h-74 border-l-1 border-gray-300 mx-5"></div>
           <div class="flex items-center gap-5 mt-5">
             <div class="max-w-xs bg-white   dark:bg-white">
-                <a href="#">
-                    <img class="" src="./assets/images/green-shirt-women.png" alt="" />
-                </a>
-                <div class="py-5">
-                    <p href="#">
-                        <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
-                    </p>
-                    <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think</p>
-                   <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
-                </div>
+              <a href="#">
+                <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+              </a>
+              <div class="py-5">
+                <p href="#">
+                <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+                </p>
+                <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+                  think</p>
+                <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+              </div>
             </div>
             <div class="h-74 border-l-1 border-gray-300"></div>
             <div class="max-w-xs bg-white   dark:bg-white">
-                <a href="#">
-                    <img class="" src="./assets/images/green-shirt-women.png" alt="" />
-                </a>
-                <div class="py-5">
-                    <p href="#">
-                        <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
-                    </p>
-                    <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think</p>
-                    <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
-                </div>
+              <a href="#">
+                <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+              </a>
+              <div class="py-5">
+                <p href="#">
+                <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+                </p>
+                <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+                  think</p>
+                <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+              </div>
             </div>
-            <div class="h-74 border-l-1 border-gray-300"></div>
-            <div class="max-w-xs bg-white   dark:bg-white">
-                <a href="#">
-                    <img class="" src="./assets/images/green-shirt-women.png" alt="" />
-                </a>
-                <div class="py-5">
-                    <p href="#">
-                        <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
-                    </p>
-                    <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think</p>
-                    <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
-                </div>
-            </div>
-            <div class="h-74 border-l-1 border-gray-300"></div>
-            <div class="max-w-xs bg-white   dark:bg-white">
-                <a href="#">
-                    <img class="" src="./assets/images/green-shirt-women.png" alt="" />
-                </a>
-                <div class="py-5">
-                    <p href="#">
-                        <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
-                    </p>
-                    <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think</p>
-                    <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
-                </div>
-            </div>
-                
           </div>
         </div>
-      </section>
-      <section class="w-full px-16 bg-black text-white mb-12">
-            <div class="flex py-10 px-5 items-center justify-between">
-                <div class="text-3xl font-semibold">Discover</div>
-                <div class="flex justify-between overflow-hidden gap-5">
-                    <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
-                    <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
-                    <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
-                    <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
-                    <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
-                    <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
-                    <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
-                    <div class="rounded-sm bg-[rgba(255,255,255,0.3)] px-4 py-2.5 text-sm font-semibold">TED-Ed</div>
-                </div>
-                <div class="bg-[rgba(255,255,255,0.3)] text-center px-4 py-2.5 flex justify-center items-center rounded-full ">></div>
-                <div><a href="" class="underline">See all</a></div>
-            </div>
-      </section>
-      <section class="w-full">
-        <hr class="border-gray-300" />
-        <p class="text-center text-gray-500 font-normal mb-20">TED is supported by ads and partners</p>
-        <div class="mx-5 px-5">
-            <hr class="border-black" />
-            <p class="my-2 font-bold uppercase text-sm">Recommended For You</p>
-            <div class="flex gap-5">
-                <div class="max-w-lg bg-white   dark:bg-white">
-                    <a href="#">
-                        <img class="" src="./assets/images/green-shirt-women.png" alt="" />
-                    </a>
-                    <div class="py-3">
-                        <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
-                        <h1 class="text-black text-2xl font-semibold mb-1.5">
-                          Are we alone in the universe? We're close to finding out
-                        </h1>
-                        <p class="text-sm mb-2">
-                          Astrophysicist Lisa Kaltenegger explores the thrilling
-                          possibility of discovering life beyond Earth, highlighting how
-                          cutting-edge technology like the James Webb Space Telescope lets
-                          us analyze distant planets for signs of life in unprecedented
-                          detail. Could examining these "alien earths" uncover evidence of
-                          new life forms and transform our understanding of the cosmos? We
-                          may be closer than ever to finding out.
-                        </p>
-                        <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
-                    </div>
-                </div>
-                 <div class="h-135 border-l-1 border-gray-300"></div>
-                <div class="max-w-xs bg-white   dark:bg-white">
-                    <a href="#">
-                        <img class="" src="./assets/images/green-shirt-women.png" alt="" />
-                    </a>
-                    <div class="py-3">
-                        <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
-                        <h1 class="text-black text-2xl font-semibold mb-1.5">
-                          Are we alone in the universe? We're close to finding out
-                        </h1>
-                        <p class="text-sm mb-2">
-                            When the world goes fully electric, what happens to the cars, tools and livelihoods that rely on fossil fuels? Civil engineer and environmental sociologist Emily Grubert...          
-                        </p>
-                        <p class="text-xs text-gray-500"> Emily Grubert · 1.36M views · 2 years ago</p>
-                    </div>
-                </div>
-                <div class="h-135 border-l-1 border-gray-300"></div>
-                <div class="flex flex-col gap-5">
-                    <div>
-                        <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
-                        <h1 class="text-black text-lg font-semibold mb-1.5">
-                          Are we alone in the universe? We're close to finding out
-                        </h1>
-                        <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
-                    </div>
-                    <hr class="border-gray-300" />
-                    <div>
-                        <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
-                        <h1 class="text-black text-lg font-semibold mb-1.5">
-                          Are we alone in the universe? We're close to finding out
-                        </h1>
-                        <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
-                    </div>
-                    <hr class="border-gray-300" />
-                    <div>
-                        <p class="text-red-500 font-semibold text-xs mb-1">SPORTS</p>
-                        <h1 class="text-black text-lg font-semibold mb-1.5">
-                          Are we alone in the universe? We're close to finding out
-                        </h1>
-                        <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
-                    </div>
-                    <hr class="border-gray-300" />
-                </div>
-               
-            </div>
-            
+      </div>
+    </section>
+    <section class="w-full px-10 py-8">
+      <hr class="border-gray-300 " />
+      <div class="flex justify-between">
+        <h1 class="text-[5.5rem] font-semibold">AI</h1>
+        <div class="w-1/2">
+          <p class="text-lg">Gain a deeper understanding of AI and its impact on our world — uncover its potential, and
+            feel inspired to tackle this transformative field.</p>
+          <p class="underline mt-2"> Browse all AI</p>
         </div>
-      </section>
-      
+      </div>
+      <div class="w-full">
+        <img class="w-full" src="./assets/images/white-shirt.png" alt="">
+      </div>
 
-    </main>
-  </body>
+
+      <div class="mt-5 flex">
+        <div class="w-1/2 ">
+          <p class="text-red-500 font-semibold text-xs mb-5">SCIENCE</p>
+          <h1 class="text-black text-3xl font-semibold mb-1.5">
+            Are we alone in the universe? We're close to finding out
+          </h1>
+          <p class="text-sm mb-2">
+            Astrophysicist Lisa Kaltenegger explores the thrilling
+            possibility of discovering life beyond Earth, highlighting how
+            cutting-edge technology like the James Webb Space Telescope lets
+            us analyze distant planets for signs of life in unprecedented
+            detail. Could examining these "alien earths" uncover evidence of
+            new life forms and transform our understanding of the cosmos? We
+            may be closer than ever to finding out.
+          </p>
+          <p class="text-xs">Lisa Kaltenegger</p>
+          <p class="text-xs">263K views · 8 days ago</p>
+        </div>
+        <div class="flex">
+          <div class="h-74 border-l-1 border-gray-300 mx-5"></div>
+          <div class="flex items-center gap-5 mt-5">
+            <div class="max-w-xs bg-white   dark:bg-white">
+              <a href="#">
+                <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+              </a>
+              <div class="py-5">
+                <p href="#">
+                <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+                </p>
+                <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+                  think</p>
+                <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+              </div>
+            </div>
+            <div class="h-74 border-l-1 border-gray-300"></div>
+            <div class="max-w-xs bg-white   dark:bg-white">
+              <a href="#">
+                <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+              </a>
+              <div class="py-5">
+                <p href="#">
+                <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+                </p>
+                <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+                  think</p>
+                <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full px-10 py-8">
+      <hr class="border-gray-300 " />
+      <div class="flex justify-between">
+        <h1 class="text-[5.5rem] font-semibold">AI</h1>
+        <div class="w-1/2">
+          <p class="text-lg">Gain a deeper understanding of AI and its impact on our world — uncover its potential, and
+            feel inspired to tackle this transformative field.</p>
+          <p class="underline mt-2"> Browse all AI</p>
+        </div>
+      </div>
+      <div class="w-full">
+        <img class="w-full" src="./assets/images/white-shirt.png" alt="">
+      </div>
+
+
+      <div class="mt-5 flex">
+        <div class="w-1/2 ">
+          <p class="text-red-500 font-semibold text-xs mb-5">SCIENCE</p>
+          <h1 class="text-black text-3xl font-semibold mb-1.5">
+            Are we alone in the universe? We're close to finding out
+          </h1>
+          <p class="text-sm mb-2">
+            Astrophysicist Lisa Kaltenegger explores the thrilling
+            possibility of discovering life beyond Earth, highlighting how
+            cutting-edge technology like the James Webb Space Telescope lets
+            us analyze distant planets for signs of life in unprecedented
+            detail. Could examining these "alien earths" uncover evidence of
+            new life forms and transform our understanding of the cosmos? We
+            may be closer than ever to finding out.
+          </p>
+          <p class="text-xs">Lisa Kaltenegger</p>
+          <p class="text-xs">263K views · 8 days ago</p>
+        </div>
+        <div class="flex">
+          <div class="h-74 border-l-1 border-gray-300 mx-5"></div>
+          <div class="flex items-center gap-5 mt-5">
+            <div class="max-w-xs bg-white   dark:bg-white">
+              <a href="#">
+                <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+              </a>
+              <div class="py-5">
+                <p href="#">
+                <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+                </p>
+                <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+                  think</p>
+                <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+              </div>
+            </div>
+            <div class="h-74 border-l-1 border-gray-300"></div>
+            <div class="max-w-xs bg-white   dark:bg-white">
+              <a href="#">
+                <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+              </a>
+              <div class="py-5">
+                <p href="#">
+                <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+                </p>
+                <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+                  think</p>
+                <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="px-10 pb-10">
+      <hr class="border-gray-300" />
+      <p class="mt-3 mb-4 font-bold uppercase text-sm">Trending ideas</p>
+      <div class="grid grid-cols-2 gap-x-10 gap-y-4">
+        <div class="bg-gray-200 flex gap-5 px-10 py-10 items-center">
+          <div class="text-5xl">1</div>
+          <div class="flex flex-col">
+            <h5 class="text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            <p class=" font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+              think</p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 flex gap-5 px-10 py-10 items-center">
+          <div class="text-5xl">1</div>
+          <div class="flex flex-col">
+            <h5 class="text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            <p class=" font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+              think</p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 flex gap-5 px-10 py-10 items-center">
+          <div class="text-5xl">1</div>
+          <div class="flex flex-col">
+            <h5 class="text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            <p class=" font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+              think</p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 flex gap-5 px-10 py-10 items-center">
+          <div class="text-5xl">1</div>
+          <div class="flex flex-col">
+            <h5 class="text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            <p class=" font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+              think</p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 flex gap-5 px-10 py-10 items-center">
+          <div class="text-5xl">1</div>
+          <div class="flex flex-col">
+            <h5 class="text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            <p class=" font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+              think</p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 flex gap-5 px-10 py-10 items-center">
+          <div class="text-5xl">1</div>
+          <div class="flex flex-col">
+            <h5 class="text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            <p class=" font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you
+              think</p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="px-5 w-full">
+      <div class="flex items-start justify-between gap-10 mb-10 bg-black text-white px-5 py-10">
+        <div class="w-1/2 flex flex-col ">
+          <!-- <p class="text-red-500 font-semibold text-xs mb-5">SCIENCE</p> -->
+          <h1 class="text-white text-3xl font-semibold mb-1.5">
+            Unlock your greatest potential
+          </h1>
+          <p class="text-base font-normal mb-8">
+            Become a TED Member today to build a better future – and a better you. TED Members champion world-changing
+            ideas and receive exclusive benefits including digital access to TED2025.
+          </p>
+          <button class="bg-white inline text-black font-semibold text-sm px-5.5 py-3.5 rounded-sm">Join today</button>
+        </div>
+        <div class="h-100 max-sm">
+          <img src="./assets/images/hero-girl.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="w-3/5 px-10 py-8">
+      <hr class="border-black mb-2" />
+      <div class="mb-5 flex justify-between">
+        <p class="font-bold uppercase text-sm">Newest from TED</p>
+        <p class="font-bold text-sm underline">Browse all Newest</p>
+      </div>
+    </section>
+    <section class="w-full px-10 py-8">
+      <hr class="border-black mt-10 mb-2" />
+      <div class="mb-5 flex justify-between">
+        <p class="font-bold uppercase text-sm">Newest from TED</p>
+        <p class="font-bold text-sm underline">Browse all Newest</p>
+      </div>
+      <div class="flex items-center gap-5 mt-5">
+        <div class="max-w-xs bg-white   dark:bg-white">
+          <a href="#">
+            <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+          </a>
+          <div class="py-5">
+            <p href="#">
+            <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            </p>
+            <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+            </p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="h-74 border-l-1 border-gray-300"></div>
+        <div class="max-w-xs bg-white   dark:bg-white">
+          <a href="#">
+            <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+          </a>
+          <div class="py-5">
+            <p href="#">
+            <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            </p>
+            <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+            </p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="h-74 border-l-1 border-gray-300"></div>
+        <div class="max-w-xs bg-white   dark:bg-white">
+          <a href="#">
+            <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+          </a>
+          <div class="py-5">
+            <p href="#">
+            <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            </p>
+            <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+            </p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="h-74 border-l-1 border-gray-300"></div>
+        <div class="max-w-xs bg-white   dark:bg-white">
+          <a href="#">
+            <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+          </a>
+          <div class="py-5">
+            <p href="#">
+            <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            </p>
+            <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+            </p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+      </div>
+      <hr class="border-black mt-10 mb-2" />
+      <div class="mb-5 flex justify-between">
+        <p class="font-bold uppercase text-sm">Newest from TED</p>
+      </div>
+      <div class="flex items-center gap-5 mt-5">
+        <div class="max-w-xs bg-white   dark:bg-white">
+          <a href="#">
+            <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+          </a>
+          <div class="py-5">
+            <p href="#">
+            <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            </p>
+            <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+            </p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="h-74 border-l-1 border-gray-300"></div>
+        <div class="max-w-xs bg-white   dark:bg-white">
+          <a href="#">
+            <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+          </a>
+          <div class="py-5">
+            <p href="#">
+            <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            </p>
+            <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+            </p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="h-74 border-l-1 border-gray-300"></div>
+        <div class="max-w-xs bg-white   dark:bg-white">
+          <a href="#">
+            <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+          </a>
+          <div class="py-5">
+            <p href="#">
+            <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            </p>
+            <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+            </p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+        <div class="h-74 border-l-1 border-gray-300"></div>
+        <div class="max-w-xs bg-white   dark:bg-white">
+          <a href="#">
+            <img class="" src="./assets/images/green-shirt-women.png" alt="" />
+          </a>
+          <div class="py-5">
+            <p href="#">
+            <h5 class="mb-2 text-xs font-bold tracking-tight text-red-500 uppercase">Climate Change</h5>
+            </p>
+            <p class="mb-2 font-medium text-xl text-black dark:text-black">Solar energy is even cheaper than you think
+            </p>
+            <p class="text-xs text-gray-500">Jenny Chase · 477K views · 23 days ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+  </main>
+</body>
+
 </html>
