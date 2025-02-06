@@ -623,6 +623,9 @@
   .w-3\/5 {
     width: calc(3/5 * 100%);
   }
+  .w-9 {
+    width: calc(var(--spacing) * 9);
+  }
   .w-full {
     width: 100%;
   }
