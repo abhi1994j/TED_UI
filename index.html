@@ -6,11 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TED UI</title>
   <link href="output.css" rel="stylesheet" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+/>
 </head>
 
 <body>
-  <header class="header border-b border-b-black  ">
-    <div class="py-4 px-4 bg-gray-200">
+  <header class="header border-b-2 border-b-gray-200">
+    <div class="py-4 px-4 bg-gray-200 hidden lg:block">
       <p class="inline-block text-base">
         Head of TED Chris Anderson on TED’s exciting new chapter.
       </p>
@@ -20,16 +24,29 @@
     <nav class="px-5 flex items-center justify-between">
       <div class="py-4">
         <a href="" class="flex">
-          <svg viewBox="0 0 68 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 lg:mr-3"
-            aria-hidden="true">
-            <path fill-rule="evenodd" clip-rule="evenodd"
+          <svg
+            viewBox="0 0 68 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 lg:mr-3"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
               d="M21.419 0v6.151h-6.763V24h-7.44V6.151H.453V0H21.42zm21.484 0v6.141l-12.918.01v2.946h12.918v5.73l-12.918-.009v3.03h12.918V24H22.546V0h20.357zm13.446 0c8.048 0 10.889 5.916 10.889 11.966C67.237 19.328 63.314 24 54.894 24H44.142V0h12.207zm-2.4 6.151H51.58V17.85h2.908c4.633 0 5.31-3.731 5.31-5.983 0-1.513-.474-5.715-5.85-5.715z"
-              fill="#EB0028"></path>
+              fill="#EB0028"
+            ></path>
           </svg>
-          <div class="text-gray-500 text-base">Ideas change everything</div>
+          <div class="ml-2 text-gray-500 text-base">Ideas change everything</div>
         </a>
       </div>
-      <ul class="text-xs text-gray-500 flex font-bold uppercase">
+       <!-- Mobile Menu Button -->
+       <button id="menu-btn" class="lg:hidden text-2xl">
+          <i class="fas fa-bars"></i>
+        </button>
+
+      <ul class="hidden lg:flex text-xs text-gray-500 items-center font-bold uppercase">
         <li class="py-5 px-3">
           <a href="">Watch</a>
         </li>
@@ -48,14 +65,15 @@
         <li class="py-5 px-3">
           <a href="">Sign in</a>
         </li>
-
         <li class="text-gray-500 py-2 px-4">
-          <button class="py-2.5 px-4 bg-red-700 text-white rounded-sm hover:bg-red-900 ">
+          <button
+            class="py-2.5 px-4 bg-red-700 text-white rounded-sm hover:bg-red-900"
+          >
             Membership
           </button>
         </li>
         <li>
-          <button class="py-5 px-3">Membership</button>
+          <i class="fas fa-search text-2xl mx-2.5"></i>
           <!-- <i aria-hidden="true" class="fa-solid fa-magnifying-glass"></i> -->
         </li>
       </ul>
